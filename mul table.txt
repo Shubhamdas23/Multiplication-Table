@@ -1,0 +1,19 @@
+//[MULTIPLICATION TABLE]
+
+#include <stdio.h>
+
+int main()
+{
+    int a,n,c;
+
+    // a=any number,n=the numbers from 1-10
+    
+    printf("enter the number you want  ");
+    scanf("%d",&a);
+    for(n=1;n<11;n++){
+        c=a*n;
+        printf("%d*%d=%d\n",a,n,c);
+    }
+
+    return 0;
+}
